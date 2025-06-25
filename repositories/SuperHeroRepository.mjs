@@ -32,7 +32,7 @@ class SuperHeroRepository extends IRepository {
     }
 
     async eliminarPorNombre(nombreSuperheroe) {
-        return await SuperHero.findOneAndDelete(id, datos);
+        return await SuperHero.findOneAndDelete({ nombreSuperheroe });
     }
 }
 

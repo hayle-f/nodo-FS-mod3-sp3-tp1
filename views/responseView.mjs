@@ -1,7 +1,7 @@
 export function renderizarSuperheroe(superheroe) {
     return {
         ID: superheroe._id,
-        Nombre: superheroe.nombreSuperheroe,
+        "Nombre Superheroe": superheroe.nombreSuperheroe,
         "Nombre Real": superheroe.nombreReal,
         Edad: superheroe.edad,
         "Planeta de Origen": superheroe.planetaOrigen, 

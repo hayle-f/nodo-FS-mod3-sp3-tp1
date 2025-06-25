@@ -12,7 +12,7 @@ router.post('/heroes', crearNuevoSuperHeroController);
 router.put('/heroes/:id', modificarSuperHeroController);
 
 router.delete('/heroes/:id', eliminarSuperHeroPorIDController);
-router.delete('/heroes/atributo/:atributo/:valor', eliminarSuperHeroPorNombreController);
+router.delete('/heroes/nombreSuperheroe/:nombreSuperheroe', eliminarSuperHeroPorNombreController);
 
 
 
